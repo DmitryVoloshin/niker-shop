@@ -1,12 +1,12 @@
 @font-face{
-    font-family: 'unkempt';
+    font-family: 'Unkempt';
     src: url("../fonts/unkempt-bold-webfont.woff"),
     url("../fonts/unkempt-bold-webfont.woff2");
     font-weight: 800;
     font-style: normal;
 }
 @font-face{
-    font-family: 'unkempt';
+    font-family: 'Unkempt';
     src: url("../fonts/unkempt-regular-webfont.woff"),
     url("../fonts/unkempt-regular-webfont.woff2");
     font-weight: normal;
