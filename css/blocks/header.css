@@ -1,0 +1,77 @@
+.header-block_top{
+    display: grid;
+    grid-template-columns: 224px 1fr;
+    grid-column-gap: 20px;
+    padding-top: 40px;
+    align-items: center;
+}
+.info-block_title{
+    color: #fff;
+    font-size: 60px;
+    line-height: 70px;
+    text-align: center;
+    font-weight: normal;
+  }
+.info-block_text{
+    text-align: center;
+}
+.info-block_link{
+    text-decoration: none;
+    font-size: 40px;
+    line-height: 75px;
+    color: rgb(172, 7, 84);
+    font-weight: 800;
+    display: inline-block;
+    letter-spacing: 3px;
+    transition-duration: 500ms;
+    transition-property: letter-spacing;
+}
+.info-block_link:hover{
+    letter-spacing: 16px
+}
+.info-block_arrow{
+    text-decoration: none;
+    display: block;
+    margin: 0 auto;
+    width: 84px;
+    height: 42px
+}
+.header-block_info{
+    margin-top: 16.6%;
+    margin-bottom: 16.6%
+}
+
+.header-main_wrap{
+    padding-bottom: 65px;
+}
+
+
+@media(max-width:1280px){
+    .info-block_title{
+        font-size: 50px;
+        line-height: 60px;
+    }
+}
+@media(max-width:768px){
+    .header-block_top{
+        grid-template-columns: auto;
+        justify-items: center;
+    }
+    .header-block_logo{
+        margin-bottom: 25px;
+    }
+}
+@media(max-width:580px){
+    .info-block_title{
+        font-size: 40px;
+        line-height: 50px;
+    }
+}
+
+
+/**/
+.header{
+    background: url('../../picture/person-shoe-sneaker-red-nike-footwear-football-player-77745.jpg')  center top no-repeat #000;
+    background-size: cover;
+};
+
