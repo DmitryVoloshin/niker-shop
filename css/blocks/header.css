@@ -66,6 +66,13 @@
         font-size: 40px;
         line-height: 50px;
     }
+    .info-block_link{
+        font-size: 25px;
+        line-height: 50px;
+    }
+    .info-block_link:hover{
+        letter-spacing: 8px;
+    }
 }
 
 
