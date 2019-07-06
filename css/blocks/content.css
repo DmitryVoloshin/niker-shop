@@ -1,0 +1,104 @@
+.content-wrap{
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,minmax(100px,33%)); /* 100   460*/
+    grid-gap: 40px;
+    margin: 85px 0px;
+}
+.content-link{
+    grid-column: span 1;
+    padding: 200px 40px 35px 40px;
+    box-sizing: border-box;
+    text-decoration: none;
+    background: url('../../picture/react.jpg') no-repeat #000;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: relative;
+    z-index: 1;
+}
+.content-link::after{
+    content: '';
+    background-image: linear-gradient(0deg,rgb(26,26,26) 0%,rgba(26,26,26,0) 100%);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.content-link:nth-child(2){
+  background: url('../../picture/720.jpg') no-repeat #000;
+  background-size: cover;
+}
+.content-link:nth-child(6){
+    background: url('../../picture/270.jpg') no-repeat #000;
+    padding-top: 70%;
+    background-size: cover;
+}
+.content-link_biggest{
+    grid-column: 2 / 4;
+    grid-row: 2 / 4;
+}
+.first-block_link{
+    padding-top: 50%
+}
+.content-name{
+    font-size: 40px;
+    line-height: 45px;
+    color: #fff;
+    transition-duration: 600ms;
+    transition-property: color;
+}
+.content-link:hover .content-name{
+   color:rgb(172, 7, 84);
+}
+
+@media (max-width: 1200px){
+    .content-name{
+        font-size: 30px ;
+        line-height:  35px ;
+    }
+    .content-wrap{
+        margin: 40px 0px;
+        grid-gap: 25px
+    }
+}
+@media(max-width:980px){
+    .content-wrap{
+        grid-template-columns: repeat(4,minmax(100px,462px))
+    }
+    .content-link{
+        grid-column: span 2;
+    }
+    .content-link_biggest{
+        grid-column: 1 / -1;
+    }
+    .content-link_changed{
+        grid-column: span 4;
+        padding-top: 60%;
+    }
+}
+@media(max-width:768px){
+    .content-link{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+@media(max-width:580px){
+    .content-wrap{
+        grid-template-columns: 1fr;
+    }
+    .content-link{
+        grid-column: 1 / -1;
+        padding-top: 50%
+    }
+    .content-link:nth-child(6){
+        padding-top: 50%
+    }
+    .content-name{
+        font-size: 24px;
+        line-height: 29px;
+    }
+}
