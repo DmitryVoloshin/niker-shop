@@ -1,0 +1,41 @@
+.about{
+  background: url('../../picture/collage.jpg') center top no-repeat #000;
+  background-size: cover;
+}
+.about-title{
+    color: rgb(243, 245, 237);
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: bold;
+}
+
+.about-link{
+    text-decoration: none;
+    font-size: 70px;
+    line-height: 75px;
+    color: rgb(230, 25, 120);
+    font-weight: 800;
+    display: inline-block;
+}
+.about-info{
+    text-align: center;
+    padding-top: 25%;
+    padding-bottom: 25%;
+}
+
+@media(max-width:1280px){
+    .about-title{
+        font-size: 50px;
+        line-height: 60px;
+    }
+}
+@media(max-width:580px){
+    .about-title{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .about-link{
+        font-size: 25px;
+        line-height: 50px;
+    }
+}

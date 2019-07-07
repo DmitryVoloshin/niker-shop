@@ -34,7 +34,10 @@
     display: block;
     margin: 0 auto;
     width: 84px;
-    height: 42px
+    height: 42px;
+    animation-name: animateArrow;
+    animation-duration: 0.8s;
+    animation-iteration-count: infinite;
 }
 .header-block_info{
     margin-top: 16.6%;
@@ -74,7 +77,11 @@
         letter-spacing: 8px;
     }
 }
-
+@keyframes animateArrow{ 
+   0%{transform: translateY(0px);}
+   50%{transform: translateY(15px);}
+   100%{transform: translateY(0px)}
+}
 
 /**/
 .header{
