@@ -1,0 +1,16 @@
+.btn-up{
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    z-index: 3;
+}
+.btn-up_size{
+    width: 64px;
+    height: 64px;
+    fill: rgb(15, 14, 15);
+    transition-property: fill;
+    transition-duration: 400ms;
+}
+.btn-up_size:hover{
+    fill:  rgb(172, 7, 84);
+}
