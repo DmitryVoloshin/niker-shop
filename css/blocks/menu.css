@@ -23,6 +23,7 @@
     transition-duration: 500ms;
     transition-property: color;
 }
+
 .menu-list_link:hover, .menu-list_link:active, .menu-list_link:focus{
     color:rgb(150, 10, 75);
     /* letter-spacing: 5px */
