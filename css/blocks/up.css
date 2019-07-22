@@ -1,7 +1,7 @@
 .btn-up{
     position: fixed;
-    bottom: 25px;
-    right: 25px;
+    bottom: 95px;
+    right: 5px;
     z-index: 3;
 }
 .btn-up_size{
@@ -13,4 +13,10 @@
 }
 .btn-up_size:hover{
     fill:  rgb(172, 7, 84);
+}
+@media(max-width:768px){
+    .btn-up{
+        bottom: 35px;
+        right: 25px;
+    }
 }

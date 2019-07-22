@@ -28,12 +28,25 @@
     height: 100%;
     z-index: -1;
 }
+/* TIMEEEEEE TO BAAAAD PRACTIICSSSSSSSSSSSSSSSSSS*/
 .content-link:nth-child(2){
+    background: url('../../picture/airmax.jpg') no-repeat #000;
+    background-size: cover;
+}
+.content-link:nth-child(3){
+    background: url('../../picture/270.jpg') no-repeat #000;
+    background-size: cover;
+}
+.content-link:nth-child(4){
   background: url('../../picture/720.jpg') no-repeat #000;
   background-size: cover;
 }
+.content-link:nth-child(5){
+    background: url('../../picture/airforce.jpg') no-repeat #000;
+    background-size: cover;
+}
 .content-link:nth-child(6){
-    background: url('../../picture/270.jpg') no-repeat #000;
+    background: url('../../picture/nikeZoom.jpg') no-repeat #000;
     padding-top: 70%;
     background-size: cover;
 }
