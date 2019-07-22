@@ -20,3 +20,13 @@
         right: 25px;
     }
 }
+@media(max-width:450px){
+    .btn-up_size{
+        width: 40px;
+        height: 40px;
+    }
+    .btn-up{
+        right: 10px;
+        bottom: 45px;
+    }
+}

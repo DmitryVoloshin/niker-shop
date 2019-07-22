@@ -55,3 +55,8 @@
         margin-left: 0px
     }
 }
+@media(max-width:550px){
+    .footer-list_link{
+        font-size: 15px
+    }
+}
